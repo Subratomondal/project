@@ -31,8 +31,8 @@ const HeroSection: React.FC = () => {
                 Contact Me
               </a>
               <a
-                href="../public/cv.pdf"
-                download="../public/cv.pdf"
+                href="./cv.pdf"
+                download="./cv.pdf"
                 className="btn bg-white text-blue-900 hover:bg-gray-100"
               >
                 <Download size={18} className="mr-2" />
@@ -72,7 +72,7 @@ const HeroSection: React.FC = () => {
           <div className="md:w-5/12 mt-12 md:mt-0 flex justify-center animate-slide-in-right">
             <div className="relative w-72 h-72 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white shadow-xl">
               <img
-                src="../public/photo.jpg"
+                src="./photo.jpg"
                 alt="Subrato Mondal"
                 className="w-full h-full object-cover"
               />
